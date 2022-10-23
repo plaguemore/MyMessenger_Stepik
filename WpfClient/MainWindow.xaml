@@ -10,7 +10,7 @@
         <ListBox x:Name="MessagesLB" HorizontalAlignment="Left" Height="284" Margin="10,10,0,0" VerticalAlignment="Top" Width="672"/>
         <TextBox x:Name="UserNameTB" HorizontalAlignment="Left" Height="23" Margin="10,337,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="288"/>
         <TextBox x:Name="MessageTB" HorizontalAlignment="Left" Height="23" Margin="10,386,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="544"/>
-        <Button Content="Отправить" HorizontalAlignment="Left" Margin="642,341,0,0" VerticalAlignment="Top" Width="140" Height="68"/>
+        <Button Content="Отправить" HorizontalAlignment="Left" Margin="642,341,0,0" VerticalAlignment="Top" Width="140" Height="68" Click="Button_Click"/>
 
     </Grid>
 </Window>
